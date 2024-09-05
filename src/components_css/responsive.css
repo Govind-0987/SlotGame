@@ -1,0 +1,68 @@
+/* responsive.css */
+
+
+@media only screen and (max-width: 1200px) {
+    .login-sec {
+        margin: 0 30%;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .login-sec {
+        margin: 0 22%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .slot-machine-container .col-md-3 {
+        width: 30%;
+    }
+    .slot-machine.pt-5 {
+        padding: 0 !important;
+    }
+    .slot-machine-container .col-md-9 {
+        width: 70%;
+    }
+    .slot {
+        width: 120px;
+        height: 180px;
+        font-size: 50px;
+    }
+    .slots {
+        border: 6px solid #ddd;
+        border-radius: 20px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .sidebar-wp {
+        border: none;
+    }
+    .login-sec {
+        margin: 0 0%;
+    }
+    .slot-machine-container .col-md-3 {
+        width: 100%;
+    }
+    .sidebar-wp {
+        height: fit-content;
+    }
+    .slot-machine-container .col-md-9 {
+        width: 100%;
+    }
+    .slot-machine-container {
+        overflow-x: hidden;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .slot {
+        width: 90px;
+        height: 150px;
+        font-size: 40px;
+    }
+    .slots {
+        border: 2px solid #ddd;
+        border-radius: 15px;
+    }
+}

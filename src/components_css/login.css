@@ -1,0 +1,36 @@
+
+.login-sec button {
+    background: linear-gradient(to left, rgb(140 66 178 / 44%) 0%, rgb(140 66 178) 100%);
+}
+
+.login-sec button:hover {
+    background: linear-gradient(to left, rgb(140 66 178 / 44%) 0%, rgb(140 66 178) 100%);
+}
+
+.login-sec {
+    margin: 0 35%;
+    box-shadow: 0px 0px 10px #b6b6b6;
+    padding: 30px;
+    background: #fff;
+    border-radius: 10px;
+}
+
+.login-sec span {
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.login-sec h4 {
+    color: #8e44b3 !important;
+  }
+
+.login-btmcmn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login-btmcmn a {
+    color: #8e44b3;
+    border-bottom: 1px solid;
+}
